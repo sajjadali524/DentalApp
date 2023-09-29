@@ -1,0 +1,97 @@
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+form .form label {
+    font-size: 12px;
+    font-weight: 700;
+    font-family: var(--textType);
+    color: #18194599;
+
+}
+form input {
+    padding: 15px 10px;
+    width: 100%;
+    margin-top: 10px;
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #1819451A;
+    outline: none;
+    font-family: var(--textType);
+    font-size: 12px;
+    font-weight: 600;
+    opacity: 70%;
+}
+
+form select {
+    padding: 15px 10px;
+    width: 100%;
+    margin-top: 10px;
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #1819451A;
+    outline: none;
+    cursor: pointer;
+    font-family: var(--textType);
+    color: var(--darkText);
+    font-weight: 600;
+}
+form .second {
+    opacity: 70%;
+}
+form .form-box label {
+    font-size: 12px;
+    font-weight: 700;
+    font-family: var(--textType);
+    color: #18194599;
+}
+form textarea {
+    padding: 10px;
+    opacity: 50%;
+    margin-top: 10px;
+    width: 212%;
+    height: 170px;
+    outline: none;
+}
+
+
+
+
+.form-last {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.form-details {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+.form-details  span {
+    width: 70px;
+    height: 55px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-image-source: linear-gradient(135deg, #583FBC 0%, rgba(88, 63, 188, 0) 100%);
+    background: linear-gradient(135deg, #583FBC 0%, rgba(88, 63, 188, 0) 100%),
+    linear-gradient(0deg, rgba(88, 63, 188, 0.2), rgba(88, 63, 188, 0.2));
+
+
+}
+.form-details span div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 16px;
+    background: #583FBC;
+}
+.form-details img {
+    width: 24px;
+}

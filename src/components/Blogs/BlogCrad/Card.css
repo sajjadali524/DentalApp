@@ -1,0 +1,65 @@
+.blog-card {
+    width: 300px;
+    height: 380px;
+    padding: 10px;
+    border-radius: 32px;
+    background: #ffffff;
+    border: 1px solid #1819451A;
+}
+.blog-card .img-section {
+    width: 100%;
+    border-radius: 32px;
+    position: relative;
+}
+.img-section img {
+    width: 100%;
+}
+.img-section span {
+    width: 50px;
+    height: 50px;
+    border-radius: 16px;
+    background: #FFFFFF;
+    z-index: 999;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+span h4, h6 {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--textType);
+    color: var(--darkText);
+}
+span h6 {
+    color: #18194599;
+    font-size: 12px;
+}
+.blog-card .b-text-section {
+    width: 100%;
+    padding: 20px 0 10px 0;
+}
+.b-text-section .b-main-heading {
+    font-size: 12px;
+    font-weight: 700;
+    font-family: var(--textType);
+    color: #583FBC;
+    padding-bottom: 10px;
+}
+.b-text-section .b-heading {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: var(--textType);
+    color: var(--darkText);
+}
+.b-text-section .b-parag {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--textType);
+    color: var(--darkText);
+    width: 100%;
+    opacity: 80%;
+}

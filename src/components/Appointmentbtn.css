@@ -1,0 +1,11 @@
+
+.button button {
+    width: 200px;
+    height: 55px;
+    border-radius: 16px;
+    background: #583FBC;
+    font-weight: 600;
+    color: #fff;
+    font-size: 15px;
+    font-family: var(--textType);
+}

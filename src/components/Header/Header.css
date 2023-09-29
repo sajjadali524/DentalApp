@@ -1,0 +1,147 @@
+.Header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    padding: 48px 80px;
+}
+.Header .menu {
+    width: 20px;
+    display: none;
+}
+.Header .logo {
+    display: flex;
+    align-items: center;
+    width: 152px;
+}
+.logo img {
+    width: 32px;
+    height: 32px;
+}
+.logo h2 {
+    margin-left: 5px;
+    font-size: 24px;
+    font-weight: 800;
+    font-family: var(--textType);
+    color: var(--darkText);
+}
+.Header .navbar {
+    width: 474px;
+}
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* text-align: center; */
+}
+.navbar ul li {
+    list-style-type: none;
+}
+.navbar ul li a {
+    font-family: var(--textType);
+    color: var(--darkText);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+}
+.Header .button {
+    width: 174px;
+}
+.button button {
+    width: 100%;
+    float: right;
+    background: #583FBC;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    height: 48px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+/* responsive codee */
+@media (max-width: 1050px) {
+    .Header {
+        padding: 48px 40px;
+    }
+}
+@media (max-width: 1000px) {
+    .button button {
+        width: 170px;
+    }
+}
+@media (max-width: 950px) {
+    .button button {
+        width: 170px;
+    }
+    .Header .navbar {
+        width: 400px;
+    }
+}
+@media (max-width: 850px) {
+    .Header .navbar {
+        width: 370px;
+    }
+    .Header {
+        padding: 48px 30px;
+    }
+}
+@media (max-width: 819px) {
+    .Header .menu {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 50px;
+        cursor: pointer;
+    }
+    .Header {
+        display: block;
+        padding: 10px 30px;
+        margin-bottom: 10px;
+        transition: all 0.5s;
+    }
+    .Header.open {
+        height: 45vh;
+    }
+    .navbar .ul{
+        display: block;
+        margin-top: 15px;
+        padding-bottom: 20px;
+        padding: 10px;
+        transform: translateX(-100%);
+        transition: all 0.5s;
+    }
+    .navbar .ul.open  {
+        transform: translateX(0);
+    }
+    .navbar ul li {
+        gap: 10px;
+        padding: 10px 0;
+    }
+    .header {
+        position: absolute;
+        top: -70vh;
+    }
+    .Header .button button {
+        display: none;
+    }
+}
+@media (max-width: 500px){
+    .logo img {
+        width: 25px;
+        height: 25px;
+    }
+    .logo h2 {
+        font-size: 15px;
+    }
+    .Header.open {
+        height: 40vh;
+    }
+    .Header .navbar {
+        width: 100%;
+    }
+}

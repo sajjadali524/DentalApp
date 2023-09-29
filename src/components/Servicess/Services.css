@@ -1,0 +1,158 @@
+.services {
+    width: 100%;
+    height: 772px;
+    padding: 0 70px;
+}
+.cards {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.services h1 {
+    color: #583FBC;
+    font-family: var(--textType);
+    font-size: 12px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.services .text-part {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.text-part h1, p {
+    font-weight: 600;
+    width: 425px;
+    height: 120px;
+    font-size: 48px;
+    font-family: var(--textType);
+    color: var(--darkText);
+}
+.text-part p {
+    padding-left: 70px;
+    margin-top: 15px;
+    width: 550px;
+    height: 84px;
+    font-weight: 500;
+    font-size: 17px;
+    opacity: 70%;
+    line-height: 25px;
+}
+.services .service-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.service-btn button {
+    margin-top: 90px;
+    border: 2px solid #FFFFFF;
+    cursor: pointer;
+    width: 240px;
+    border-radius: 16px;
+    height: 64px;
+    background: #583FBC1A;
+    color: #583FBC;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--textType);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.service-btn button img {
+    width: 20px;
+}
+
+
+/* responsive codeee */
+
+@media (max-width: 1150px) {
+    .text-part p {
+        margin-top: 15px;
+    }
+    .text-part h1, p {
+        font-size: 35px;
+    }
+    .cards {
+        gap: 10px;
+    }
+}
+@media (max-width: 1000px ) {
+    .services {
+        padding: 0 50px;
+        margin-top: 50px;
+        height: 100%;
+    }
+    .services h1 {
+        font-size: 20px;
+    }
+    .card .cards-text .card-para {
+        font-size: 12px;
+    }
+    .cards {
+        gap: 25px;
+        margin-top: 70px;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cards .card {
+        margin-top: 0;
+    }
+}
+@media (max-width: 819px) {
+    .services .text-part {
+        display: flex;
+        flex-direction: column;
+    }
+    .services {
+        padding: 0 50px;
+    }
+    .text-part h1{
+        height: 0px;
+        width: 100%;
+    }
+    .text-part p {
+        padding-left: 0;
+        width: 100%;
+    }
+}
+@media (max-width: 764px) {
+    .card {
+        width: 75%;
+        height: 400px;
+        margin-top: 70px;
+    }
+    .card-image {
+        height: 270px;
+    }
+    .card span {
+        width: 125px;
+        height: 125px;
+    }
+    .card span div {
+        width: 72px;
+        height: 72px;
+    }
+    .card img {
+        width: 45px;
+        height: 45px;
+    }
+}
+@media (max-width: 500px) {
+    .services h1 {
+        padding-bottom: 15px;
+    }
+    .services {
+        padding: 0 15px;
+    }
+    .text-part p {
+        font-size: 14px;
+    }
+    .cards {
+        margin-top: 35px;
+    }
+}

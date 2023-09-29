@@ -1,0 +1,65 @@
+.feature-section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.feature-section .f-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 15px;
+}
+.f-section  span {
+    width: 92px;
+    height: 72px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ffffff;
+    border-image-source: linear-gradient(135deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(135deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%),
+                linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+
+}
+.f-section span div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 16px;
+    background: #ffffff;
+}
+.f-section img {
+    width: 25px;
+    height: 25px;
+}
+
+.f-section .f-section-text .s-heading{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--textType);
+    color: var(--darkText);
+    padding-bottom: 10px;
+}
+.f-section .f-section-text .s-parag {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--textType);
+    color: var(--darkText);
+    opacity: 60%;
+}
+
+
+/* responsive codeee */
+
+@media (max-width: 600px) {
+    .f-section .f-section-text .s-heading {
+        font-size: 15px;
+    }
+    .f-section .f-section-text .s-parag {
+        font-size: 12px;
+    }
+}
