@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/DentalApp/static/css/main.157e2543.css",
+    "main.js": "/DentalApp/static/js/main.b3a19052.js",
+    "static/js/787.c06eb2fc.chunk.js": "/DentalApp/static/js/787.c06eb2fc.chunk.js",
+    "static/media/Main.png": "/DentalApp/static/media/Main.7da09ff56f7b26246a77.png",
+    "static/media/map.png": "/DentalApp/static/media/map.9f4c2390908a54a085a3.png",
+    "static/media/emergency.png": "/DentalApp/static/media/emergency.c9de54a78eca2523ab87.png",
+    "static/media/doctor.png": "/DentalApp/static/media/doctor.d2fb96b02eeb7c9e6965.png",
+    "static/media/Blog2.png": "/DentalApp/static/media/Blog2.a9b86f353a0f3174be62.png",
+    "static/media/Blog1.png": "/DentalApp/static/media/Blog1.c935a623c862670ccf1f.png",
+    "static/media/Blog3.png": "/DentalApp/static/media/Blog3.95b06633f26e7bcdfeb7.png",
+    "static/media/review1.png": "/DentalApp/static/media/review1.a3a26ab2647e1e632526.png",
+    "static/media/review2.png": "/DentalApp/static/media/review2.79dc10bbd3b08f754b71.png",
+    "index.html": "/DentalApp/index.html",
+    "main.157e2543.css.map": "/DentalApp/static/css/main.157e2543.css.map",
+    "main.b3a19052.js.map": "/DentalApp/static/js/main.b3a19052.js.map",
+    "787.c06eb2fc.chunk.js.map": "/DentalApp/static/js/787.c06eb2fc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.157e2543.css",
+    "static/js/main.b3a19052.js"
+  ]
+}
